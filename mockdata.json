@@ -1,0 +1,2756 @@
+{
+  "parameters": [
+    {
+      "name": "serverID",
+      "value": "EFA02"
+    },
+    {
+      "name": "requestID",
+      "value": "0"
+    },
+    {
+      "name": "sessionID",
+      "value": "0"
+    },
+    {
+      "name": "calcTime",
+      "value": "640.224"
+    },
+    {
+      "name": "serverTime",
+      "value": "2022-10-03T20:15:24"
+    }
+  ],
+  "dm": {
+    "input": {
+      "input": "7001105"
+    },
+    "points": {
+      "point": {
+        "usage": "dm",
+        "type": "stop",
+        "name": "Karlsruhe, Kurt-Schumacher-Straße",
+        "stateless": "7001105",
+        "ref": {
+          "id": "7001105",
+          "gid": "de:08212:1105",
+          "omc": "8212000",
+          "placeID": "15",
+          "place": "Karlsruhe",
+          "coords": "8.37627,49.03014"
+        },
+        "infos": null
+      }
+    }
+  },
+  "arr": {
+    "input": {
+      "input": ""
+    },
+    "points": null
+  },
+  "dateTime": {
+    "deparr": "dep",
+    "ttpFrom": "20220612",
+    "ttpTo": "20221210",
+    "year": "2022",
+    "month": "10",
+    "day": "3",
+    "hour": "20",
+    "minute": "15"
+  },
+  "dateRange": [
+    {
+      "day": "03",
+      "month": "10",
+      "year": "2022",
+      "weekday": "2"
+    },
+    {
+      "day": "04",
+      "month": "10",
+      "year": "2022",
+      "weekday": "3"
+    },
+    {
+      "day": "05",
+      "month": "10",
+      "year": "2022",
+      "weekday": "4"
+    },
+    {
+      "day": "06",
+      "month": "10",
+      "year": "2022",
+      "weekday": "5"
+    },
+    {
+      "day": "07",
+      "month": "10",
+      "year": "2022",
+      "weekday": "6"
+    },
+    {
+      "day": "08",
+      "month": "10",
+      "year": "2022",
+      "weekday": "7"
+    },
+    {
+      "day": "09",
+      "month": "10",
+      "year": "2022",
+      "weekday": "1"
+    },
+    {
+      "day": "10",
+      "month": "10",
+      "year": "2022",
+      "weekday": "2"
+    },
+    {
+      "day": "11",
+      "month": "10",
+      "year": "2022",
+      "weekday": "3"
+    },
+    {
+      "day": "12",
+      "month": "10",
+      "year": "2022",
+      "weekday": "4"
+    },
+    {
+      "day": "13",
+      "month": "10",
+      "year": "2022",
+      "weekday": "5"
+    },
+    {
+      "day": "14",
+      "month": "10",
+      "year": "2022",
+      "weekday": "6"
+    },
+    {
+      "day": "15",
+      "month": "10",
+      "year": "2022",
+      "weekday": "7"
+    },
+    {
+      "day": "16",
+      "month": "10",
+      "year": "2022",
+      "weekday": "1"
+    },
+    {
+      "day": "17",
+      "month": "10",
+      "year": "2022",
+      "weekday": "2"
+    }
+  ],
+  "option": {
+    "ptOption": {
+      "active": "-1",
+      "maxChanges": "9",
+      "maxTime": "360",
+      "maxWait": "120",
+      "routeType": "LEASTTIME",
+      "changeSpeed": "normal",
+      "lineRestriction": "400",
+      "useProxFootSearch": "0",
+      "useProxFootSearchOrigin": "0",
+      "useProxFootSearchDestination": "0",
+      "bike": "0",
+      "plane": "0",
+      "noCrowded": "0",
+      "noSolidStairs": "0",
+      "noEscalators": "0",
+      "noElevators": "0",
+      "lowPlatformVhcl": "0",
+      "wheelchair": "0",
+      "needElevatedPlt": "0",
+      "assistance": "0",
+      "SOSAvail": "0",
+      "noLonelyTransfer": "0",
+      "illumTransfer": "0",
+      "overgroundTransfer": "0",
+      "noInsecurePlaces": "0",
+      "privateTransport": "0",
+      "excludedMeans": [
+        {
+          "value": "0",
+          "selected": "0"
+        },
+        {
+          "value": "1",
+          "selected": "0"
+        },
+        {
+          "value": "2",
+          "selected": "0"
+        },
+        {
+          "value": "3",
+          "selected": "0"
+        },
+        {
+          "value": "4",
+          "selected": "0"
+        },
+        {
+          "value": "5",
+          "selected": "0"
+        },
+        {
+          "value": "6",
+          "selected": "0"
+        },
+        {
+          "value": "7",
+          "selected": "0"
+        },
+        {
+          "value": "8",
+          "selected": "0"
+        },
+        {
+          "value": "9",
+          "selected": "0"
+        },
+        {
+          "value": "10",
+          "selected": "0"
+        },
+        {
+          "value": "11",
+          "selected": "0"
+        },
+        {
+          "value": "12",
+          "selected": "0"
+        },
+        {
+          "value": "13",
+          "selected": "0"
+        },
+        {
+          "value": "14",
+          "selected": "0"
+        },
+        {
+          "value": "15",
+          "selected": "0"
+        },
+        {
+          "value": "16",
+          "selected": "0"
+        },
+        {
+          "value": "17",
+          "selected": "0"
+        },
+        {
+          "value": "18",
+          "selected": "0"
+        },
+        {
+          "value": "19",
+          "selected": "0"
+        }
+      ],
+      "activeImp": "-1",
+      "activeCom": "-1",
+      "activeSec": "-1"
+    }
+  },
+  "servingLines": {
+    "lines": [
+      {
+        "mode": {
+          "name": "S-Bahn S1",
+          "number": "S1",
+          "product": "S-Bahn",
+          "productId": "11",
+          "type": "1",
+          "code": "2",
+          "destination": "Hochstetten",
+          "destID": "-1",
+          "desc": "Bad Herrenalb - Hochstetten",
+          "timetablePeriod": "Gültig vom 12.06.22 bis 10.12.22 (S)",
+          "diva": {
+            "branch": "22",
+            "line": "22301",
+            "supplement": "E",
+            "dir": "H",
+            "project": "s22",
+            "network": "kvv",
+            "stateless": "kvv:22301:E:H:s22",
+            "tripCode": "0",
+            "operator": "Albtal-Verkehrs-Gesellschaft mbH",
+            "opCode": "01",
+            "vF": "20220612",
+            "vTo": "20221210",
+            "attrs": []
+          }
+        },
+        "index": "1:0"
+      },
+      {
+        "mode": {
+          "name": "S-Bahn S1",
+          "number": "S1",
+          "product": "S-Bahn",
+          "productId": "11",
+          "type": "1",
+          "code": "2",
+          "destination": "Bad Herrenalb",
+          "destID": "-1",
+          "desc": "Hochstetten - Bad Herrenalb",
+          "timetablePeriod": "Gültig vom 12.06.22 bis 10.12.22 (S)",
+          "diva": {
+            "branch": "22",
+            "line": "22301",
+            "supplement": "E",
+            "dir": "R",
+            "project": "s22",
+            "network": "kvv",
+            "stateless": "kvv:22301:E:R:s22",
+            "tripCode": "0",
+            "operator": "Albtal-Verkehrs-Gesellschaft mbH",
+            "opCode": "01",
+            "vF": "20220612",
+            "vTo": "20221210",
+            "attrs": []
+          }
+        },
+        "index": "1:1"
+      },
+      {
+        "mode": {
+          "name": "S-Bahn S11",
+          "number": "S11",
+          "product": "S-Bahn",
+          "productId": "11",
+          "type": "1",
+          "code": "2",
+          "destination": "Hochstetten",
+          "destID": "-1",
+          "desc": "Ittersbach - Hochstetten",
+          "timetablePeriod": "Gültig vom 12.06.22 bis 10.12.22 (S)",
+          "diva": {
+            "branch": "22",
+            "line": "22311",
+            "supplement": "E",
+            "dir": "H",
+            "project": "s22",
+            "network": "kvv",
+            "stateless": "kvv:22311:E:H:s22",
+            "tripCode": "0",
+            "operator": "Albtal-Verkehrs-Gesellschaft mbH",
+            "opCode": "01",
+            "vF": "20220612",
+            "vTo": "20221210",
+            "attrs": []
+          }
+        },
+        "index": "1:2"
+      },
+      {
+        "mode": {
+          "name": "S-Bahn S11",
+          "number": "S11",
+          "product": "S-Bahn",
+          "productId": "11",
+          "type": "1",
+          "code": "2",
+          "destination": "Ittersbach",
+          "destID": "-1",
+          "desc": "Hochstetten - Ittersbach",
+          "timetablePeriod": "Gültig vom 12.06.22 bis 10.12.22 (S)",
+          "diva": {
+            "branch": "22",
+            "line": "22311",
+            "supplement": "E",
+            "dir": "R",
+            "project": "s22",
+            "network": "kvv",
+            "stateless": "kvv:22311:E:R:s22",
+            "tripCode": "0",
+            "operator": "Albtal-Verkehrs-Gesellschaft mbH",
+            "opCode": "01",
+            "vF": "20220612",
+            "vTo": "20221210",
+            "attrs": []
+          }
+        },
+        "index": "1:3"
+      },
+      {
+        "mode": {
+          "name": "S-Bahn E",
+          "number": "E",
+          "product": "S-Bahn",
+          "productId": "11",
+          "type": "1",
+          "code": "2",
+          "destination": "Neureut Kirchfeld",
+          "destID": "-1",
+          "desc": "E-Wagen A-Plan",
+          "timetablePeriod": "Gültig vom 12.06.22 bis 10.12.22 (S)",
+          "diva": {
+            "branch": "22",
+            "line": "22391",
+            "supplement": "E",
+            "dir": "H",
+            "project": "s22",
+            "network": "kvv",
+            "stateless": "kvv:22391:E:H:s22",
+            "tripCode": "0",
+            "operator": "Albtal-Verkehrs-Gesellschaft mbH",
+            "opCode": "01",
+            "vF": "20220612",
+            "vTo": "20221210",
+            "attrs": []
+          }
+        },
+        "index": "1:4"
+      }
+    ]
+  },
+  "departureList": [
+    {
+      "stopID": "7001105",
+      "x": "8.37630",
+      "y": "49.03028",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "1",
+      "platform": "1",
+      "platformName": "Gleis 1",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "9",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "20",
+        "minute": "24"
+      },
+      "realDateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "20",
+        "minute": "24"
+      },
+      "servingLine": {
+        "key": "27031",
+        "code": "2",
+        "number": "S11",
+        "symbol": "S11",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "1",
+        "direction": "Hochstetten",
+        "directionFrom": "Ittersbach Rathaus",
+        "trainName": "S-Bahn",
+        "trainNum": "27031",
+        "name": "S-Bahn",
+        "delay": "0",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22311",
+          "project": "s22",
+          "direction": "H",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22311:E:H:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      },
+      "attrs": [
+        {
+          "name": "AVMSTripID",
+          "value": "27031-15155"
+        },
+        {
+          "name": "AVMLowFloorVeh",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37623",
+      "y": "49.02998",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "2",
+      "platform": "2",
+      "platformName": "Gleis 2",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "8",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "20",
+        "minute": "33"
+      },
+      "realDateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "20",
+        "minute": "33"
+      },
+      "servingLine": {
+        "key": "17020",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "1",
+        "direction": "Ettlingen Albgaubad",
+        "directionFrom": "Neureut Kirchfeld",
+        "trainName": "S-Bahn",
+        "trainNum": "17020",
+        "name": "S-Bahn",
+        "delay": "0",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "R",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:R:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      },
+      "attrs": [
+        {
+          "name": "AVMSTripID",
+          "value": "17020-14538"
+        },
+        {
+          "name": "AVMLowFloorVeh",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37630",
+      "y": "49.03028",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "1",
+      "platform": "1",
+      "platformName": "Gleis 1",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "29",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "20",
+        "minute": "44"
+      },
+      "realDateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "20",
+        "minute": "44"
+      },
+      "servingLine": {
+        "key": "17019",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "1",
+        "direction": "Neureut Kirchfeld",
+        "directionFrom": "Ettlingen Albgaubad",
+        "trainName": "S-Bahn",
+        "trainNum": "17019",
+        "name": "S-Bahn",
+        "delay": "0",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "H",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:H:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      },
+      "attrs": [
+        {
+          "name": "AVMSTripID",
+          "value": "17019-14579"
+        },
+        {
+          "name": "AVMLowFloorVeh",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37623",
+      "y": "49.02998",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "2",
+      "platform": "2",
+      "platformName": "Gleis 2",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "38",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "20",
+        "minute": "53"
+      },
+      "realDateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "20",
+        "minute": "53"
+      },
+      "servingLine": {
+        "key": "37046",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "1",
+        "direction": "Bad Herrenalb",
+        "directionFrom": "Hochstetten",
+        "trainName": "S-Bahn",
+        "trainNum": "37046",
+        "name": "S-Bahn",
+        "delay": "0",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "R",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:R:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      },
+      "attrs": [
+        {
+          "name": "AVMSTripID",
+          "value": "37046-14566"
+        },
+        {
+          "name": "AVMLowFloorVeh",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37630",
+      "y": "49.03028",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "1",
+      "platform": "1",
+      "platformName": "Gleis 1",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "49",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "21",
+        "minute": "4"
+      },
+      "realDateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "21",
+        "minute": "4"
+      },
+      "servingLine": {
+        "key": "37041",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "1",
+        "direction": "Hochstetten",
+        "directionFrom": "Bad Herrenalb",
+        "trainName": "S-Bahn",
+        "trainNum": "37041",
+        "name": "S-Bahn",
+        "delay": "0",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "H",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:H:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      },
+      "attrs": [
+        {
+          "name": "AVMSTripID",
+          "value": "37041-14608"
+        },
+        {
+          "name": "AVMLowFloorVeh",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37623",
+      "y": "49.02998",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "2",
+      "platform": "2",
+      "platformName": "Gleis 2",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "58",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "21",
+        "minute": "13"
+      },
+      "realDateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "21",
+        "minute": "13"
+      },
+      "servingLine": {
+        "key": "27030",
+        "code": "2",
+        "number": "S11",
+        "symbol": "S11",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "1",
+        "direction": "Ittersbach",
+        "directionFrom": "Hochstetten",
+        "trainName": "S-Bahn",
+        "trainNum": "27030",
+        "name": "S-Bahn",
+        "delay": "0",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22311",
+          "project": "s22",
+          "direction": "R",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22311:E:R:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      },
+      "attrs": [
+        {
+          "name": "AVMSTripID",
+          "value": "27030-15127"
+        },
+        {
+          "name": "AVMLowFloorVeh",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37630",
+      "y": "49.03028",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "1",
+      "platform": "1",
+      "platformName": "Gleis 1",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "69",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "21",
+        "minute": "24"
+      },
+      "realDateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "21",
+        "minute": "24"
+      },
+      "servingLine": {
+        "key": "27033",
+        "code": "2",
+        "number": "S11",
+        "symbol": "S11",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "1",
+        "direction": "Hochstetten",
+        "directionFrom": "Ittersbach Rathaus",
+        "trainName": "S-Bahn",
+        "trainNum": "27033",
+        "name": "S-Bahn",
+        "delay": "0",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22311",
+          "project": "s22",
+          "direction": "H",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22311:E:H:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      },
+      "attrs": [
+        {
+          "name": "AVMSTripID",
+          "value": "27033-15156"
+        },
+        {
+          "name": "AVMLowFloorVeh",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37623",
+      "y": "49.02998",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "2",
+      "platform": "2",
+      "platformName": "Gleis 2",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "78",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "21",
+        "minute": "33"
+      },
+      "servingLine": {
+        "key": "17022",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Ettlingen Albgaubad",
+        "directionFrom": "Neureut Kirchfeld",
+        "trainName": "S-Bahn",
+        "trainNum": "17022",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "R",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:R:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37630",
+      "y": "49.03028",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "1",
+      "platform": "1",
+      "platformName": "Gleis 1",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "89",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "21",
+        "minute": "44"
+      },
+      "realDateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "21",
+        "minute": "44"
+      },
+      "servingLine": {
+        "key": "17021",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "1",
+        "direction": "Neureut Kirchfeld",
+        "directionFrom": "Ettlingen Albgaubad",
+        "trainName": "S-Bahn",
+        "trainNum": "17021",
+        "name": "S-Bahn",
+        "delay": "0",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "H",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:H:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      },
+      "attrs": [
+        {
+          "name": "AVMSTripID",
+          "value": "17021-14580"
+        },
+        {
+          "name": "AVMLowFloorVeh",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37623",
+      "y": "49.02998",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "2",
+      "platform": "2",
+      "platformName": "Gleis 2",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "98",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "21",
+        "minute": "53"
+      },
+      "servingLine": {
+        "key": "37048",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Bad Herrenalb",
+        "directionFrom": "Hochstetten",
+        "trainName": "S-Bahn",
+        "trainNum": "37048",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "R",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:R:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37630",
+      "y": "49.03028",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "1",
+      "platform": "1",
+      "platformName": "Gleis 1",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "109",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "22",
+        "minute": "4"
+      },
+      "realDateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "22",
+        "minute": "4"
+      },
+      "servingLine": {
+        "key": "37043",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "1",
+        "direction": "Hochstetten",
+        "directionFrom": "Bad Herrenalb",
+        "trainName": "S-Bahn",
+        "trainNum": "37043",
+        "name": "S-Bahn",
+        "delay": "0",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "H",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:H:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      },
+      "attrs": [
+        {
+          "name": "AVMSTripID",
+          "value": "37043-14609"
+        },
+        {
+          "name": "AVMLowFloorVeh",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37623",
+      "y": "49.02998",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "2",
+      "platform": "2",
+      "platformName": "Gleis 2",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "118",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "22",
+        "minute": "13"
+      },
+      "servingLine": {
+        "key": "27032",
+        "code": "2",
+        "number": "S11",
+        "symbol": "S11",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Ittersbach",
+        "directionFrom": "Hochstetten",
+        "trainName": "S-Bahn",
+        "trainNum": "27032",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22311",
+          "project": "s22",
+          "direction": "R",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22311:E:R:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37630",
+      "y": "49.03028",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "1",
+      "platform": "1",
+      "platformName": "Gleis 1",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "129",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "22",
+        "minute": "24"
+      },
+      "servingLine": {
+        "key": "27035",
+        "code": "2",
+        "number": "S11",
+        "symbol": "S11",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Hochstetten",
+        "directionFrom": "Ittersbach Rathaus",
+        "trainName": "S-Bahn",
+        "trainNum": "27035",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22311",
+          "project": "s22",
+          "direction": "H",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22311:E:H:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37623",
+      "y": "49.02998",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "2",
+      "platform": "2",
+      "platformName": "Gleis 2",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "138",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "22",
+        "minute": "33"
+      },
+      "servingLine": {
+        "key": "17024",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Ettlingen Albgaubad",
+        "directionFrom": "Neureut Kirchfeld",
+        "trainName": "S-Bahn",
+        "trainNum": "17024",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "R",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:R:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37630",
+      "y": "49.03028",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "1",
+      "platform": "1",
+      "platformName": "Gleis 1",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "149",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "22",
+        "minute": "44"
+      },
+      "servingLine": {
+        "key": "17023",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Neureut Kirchfeld",
+        "directionFrom": "Ettlingen Albgaubad",
+        "trainName": "S-Bahn",
+        "trainNum": "17023",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "H",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:H:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37623",
+      "y": "49.02998",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "2",
+      "platform": "2",
+      "platformName": "Gleis 2",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "158",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "22",
+        "minute": "53"
+      },
+      "servingLine": {
+        "key": "37050",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Bad Herrenalb",
+        "directionFrom": "Hochstetten",
+        "trainName": "S-Bahn",
+        "trainNum": "37050",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "R",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:R:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37630",
+      "y": "49.03028",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "1",
+      "platform": "1",
+      "platformName": "Gleis 1",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "169",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "23",
+        "minute": "4"
+      },
+      "servingLine": {
+        "key": "37045",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Hochstetten",
+        "directionFrom": "Bad Herrenalb",
+        "trainName": "S-Bahn",
+        "trainNum": "37045",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "H",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:H:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37623",
+      "y": "49.02998",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "2",
+      "platform": "2",
+      "platformName": "Gleis 2",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "178",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "23",
+        "minute": "13"
+      },
+      "servingLine": {
+        "key": "20074",
+        "code": "2",
+        "number": "S11",
+        "symbol": "S11",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Ittersbach",
+        "directionFrom": "Hochstetten",
+        "trainName": "S-Bahn",
+        "trainNum": "20074",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22311",
+          "project": "s22",
+          "direction": "R",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22311:E:R:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37630",
+      "y": "49.03028",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "1",
+      "platform": "1",
+      "platformName": "Gleis 1",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "189",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "23",
+        "minute": "24"
+      },
+      "servingLine": {
+        "key": "27037",
+        "code": "2",
+        "number": "S11",
+        "symbol": "S11",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Hochstetten",
+        "directionFrom": "Ittersbach Rathaus",
+        "trainName": "S-Bahn",
+        "trainNum": "27037",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22311",
+          "project": "s22",
+          "direction": "H",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22311:E:H:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37623",
+      "y": "49.02998",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "2",
+      "platform": "2",
+      "platformName": "Gleis 2",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "198",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "23",
+        "minute": "33"
+      },
+      "servingLine": {
+        "key": "10084",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Ettlingen Albgaubad",
+        "directionFrom": "Neureut Kirchfeld",
+        "trainName": "S-Bahn",
+        "trainNum": "10084",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "R",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:R:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37630",
+      "y": "49.03028",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "1",
+      "platform": "1",
+      "platformName": "Gleis 1",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "209",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "23",
+        "minute": "44"
+      },
+      "servingLine": {
+        "key": "17025",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Neureut Kirchfeld",
+        "directionFrom": "Ettlingen Albgaubad",
+        "trainName": "S-Bahn",
+        "trainNum": "17025",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "H",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:H:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37623",
+      "y": "49.02998",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "2",
+      "platform": "2",
+      "platformName": "Gleis 2",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "218",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "3",
+        "weekday": "2",
+        "hour": "23",
+        "minute": "53"
+      },
+      "servingLine": {
+        "key": "30066",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Bad Herrenalb",
+        "directionFrom": "Hochstetten",
+        "trainName": "S-Bahn",
+        "trainNum": "30066",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "R",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:R:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37630",
+      "y": "49.03028",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "1",
+      "platform": "1",
+      "platformName": "Gleis 1",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "229",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "4",
+        "weekday": "3",
+        "hour": "0",
+        "minute": "4"
+      },
+      "servingLine": {
+        "key": "30065",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Hochstetten",
+        "directionFrom": "Bad Herrenalb",
+        "trainName": "S-Bahn",
+        "trainNum": "30065",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "H",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:H:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37623",
+      "y": "49.02998",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "2",
+      "platform": "2",
+      "platformName": "Gleis 2",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "238",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "4",
+        "weekday": "3",
+        "hour": "0",
+        "minute": "13"
+      },
+      "servingLine": {
+        "key": "20076",
+        "code": "2",
+        "number": "S11",
+        "symbol": "S11",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Ittersbach",
+        "directionFrom": "Hochstetten",
+        "trainName": "S-Bahn",
+        "trainNum": "20076",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22311",
+          "project": "s22",
+          "direction": "R",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22311:E:R:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37630",
+      "y": "49.03028",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "1",
+      "platform": "1",
+      "platformName": "Gleis 1",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "249",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "4",
+        "weekday": "3",
+        "hour": "0",
+        "minute": "24"
+      },
+      "servingLine": {
+        "key": "20071",
+        "code": "2",
+        "number": "S11",
+        "symbol": "S11",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Neureut Kirchfeld",
+        "directionFrom": "Ittersbach Rathaus",
+        "trainName": "S-Bahn",
+        "trainNum": "20071",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22311",
+          "project": "s22",
+          "direction": "H",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22311:E:H:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37623",
+      "y": "49.02998",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "2",
+      "platform": "2",
+      "platformName": "Gleis 2",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "258",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "4",
+        "weekday": "3",
+        "hour": "0",
+        "minute": "33"
+      },
+      "servingLine": {
+        "key": "10086",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Ettlingen Albgaubad",
+        "directionFrom": "Neureut Kirchfeld",
+        "trainName": "S-Bahn",
+        "trainNum": "10086",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "R",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:R:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37630",
+      "y": "49.03028",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "1",
+      "platform": "1",
+      "platformName": "Gleis 1",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "269",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "4",
+        "weekday": "3",
+        "hour": "0",
+        "minute": "44"
+      },
+      "servingLine": {
+        "key": "10087",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Hochstetten",
+        "directionFrom": "Ettlingen Albgaubad",
+        "trainName": "S-Bahn",
+        "trainNum": "10087",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "H",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:H:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37623",
+      "y": "49.02998",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "2",
+      "platform": "2",
+      "platformName": "Gleis 2",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "278",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "4",
+        "weekday": "3",
+        "hour": "0",
+        "minute": "53"
+      },
+      "servingLine": {
+        "key": "10088",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Ettlingen Albgaubad",
+        "directionFrom": "Neureut Kirchfeld",
+        "trainName": "S-Bahn",
+        "trainNum": "10088",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "R",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:R:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37630",
+      "y": "49.03028",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "1",
+      "platform": "1",
+      "platformName": "Gleis 1",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "289",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "4",
+        "weekday": "3",
+        "hour": "1",
+        "minute": "4"
+      },
+      "servingLine": {
+        "key": "10089",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Hochstetten",
+        "directionFrom": "Ettlingen Albgaubad",
+        "trainName": "S-Bahn",
+        "trainNum": "10089",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "H",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:H:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37623",
+      "y": "49.02998",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "2",
+      "platform": "2",
+      "platformName": "Gleis 2",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "478",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "4",
+        "weekday": "3",
+        "hour": "4",
+        "minute": "13"
+      },
+      "servingLine": {
+        "key": "20002",
+        "code": "2",
+        "number": "S11",
+        "symbol": "S11",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Ittersbach",
+        "directionFrom": "Hochstetten",
+        "trainName": "S-Bahn",
+        "trainNum": "20002",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22311",
+          "project": "s22",
+          "direction": "R",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22311:E:R:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37623",
+      "y": "49.02998",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "2",
+      "platform": "2",
+      "platformName": "Gleis 2",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "508",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "4",
+        "weekday": "3",
+        "hour": "4",
+        "minute": "43"
+      },
+      "servingLine": {
+        "key": "20004",
+        "code": "2",
+        "number": "S11",
+        "symbol": "S11",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Ittersbach",
+        "directionFrom": "Hochstetten",
+        "trainName": "S-Bahn",
+        "trainNum": "20004",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22311",
+          "project": "s22",
+          "direction": "R",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22311:E:R:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37630",
+      "y": "49.03028",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "1",
+      "platform": "1",
+      "platformName": "Gleis 1",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "509",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "4",
+        "weekday": "3",
+        "hour": "4",
+        "minute": "44"
+      },
+      "servingLine": {
+        "key": "10001",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Neureut Kirchfeld",
+        "directionFrom": "Ettlingen Albgaubad",
+        "trainName": "S-Bahn",
+        "trainNum": "10001",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "H",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:H:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37630",
+      "y": "49.03028",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "1",
+      "platform": "1",
+      "platformName": "Gleis 1",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "529",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "4",
+        "weekday": "3",
+        "hour": "5",
+        "minute": "4"
+      },
+      "servingLine": {
+        "key": "10003",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Hochstetten",
+        "directionFrom": "Ettlingen Albgaubad",
+        "trainName": "S-Bahn",
+        "trainNum": "10003",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "H",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:H:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37623",
+      "y": "49.02998",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "2",
+      "platform": "2",
+      "platformName": "Gleis 2",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "538",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "4",
+        "weekday": "3",
+        "hour": "5",
+        "minute": "13"
+      },
+      "servingLine": {
+        "key": "20006",
+        "code": "2",
+        "number": "S11",
+        "symbol": "S11",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Ittersbach",
+        "directionFrom": "Hochstetten",
+        "trainName": "S-Bahn",
+        "trainNum": "20006",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22311",
+          "project": "s22",
+          "direction": "R",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22311:E:R:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37630",
+      "y": "49.03028",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "1",
+      "platform": "1",
+      "platformName": "Gleis 1",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "549",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "4",
+        "weekday": "3",
+        "hour": "5",
+        "minute": "24"
+      },
+      "servingLine": {
+        "key": "10005",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Hochstetten",
+        "directionFrom": "Ettlingen Albgaubad",
+        "trainName": "S-Bahn",
+        "trainNum": "10005",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "H",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:H:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37630",
+      "y": "49.03028",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "1",
+      "platform": "1",
+      "platformName": "Gleis 1",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "556",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "4",
+        "weekday": "3",
+        "hour": "5",
+        "minute": "31"
+      },
+      "servingLine": {
+        "key": "44051",
+        "code": "2",
+        "number": "E",
+        "symbol": "E",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Neureut Kirchfeld",
+        "directionFrom": "Karlsruhe Rheinhafen",
+        "trainName": "S-Bahn",
+        "trainNum": "44051",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22391",
+          "project": "s22",
+          "direction": "H",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22391:E:H:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37623",
+      "y": "49.02998",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "2",
+      "platform": "2",
+      "platformName": "Gleis 2",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "558",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "4",
+        "weekday": "3",
+        "hour": "5",
+        "minute": "33"
+      },
+      "servingLine": {
+        "key": "10002",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Ettlingen Albgaubad",
+        "directionFrom": "Neureut Kirchfeld",
+        "trainName": "S-Bahn",
+        "trainNum": "10002",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "R",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:R:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37623",
+      "y": "49.02998",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "2",
+      "platform": "2",
+      "platformName": "Gleis 2",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "568",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "4",
+        "weekday": "3",
+        "hour": "5",
+        "minute": "43"
+      },
+      "servingLine": {
+        "key": "20008",
+        "code": "2",
+        "number": "S11",
+        "symbol": "S11",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Ittersbach",
+        "directionFrom": "Hochstetten",
+        "trainName": "S-Bahn",
+        "trainNum": "20008",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22311",
+          "project": "s22",
+          "direction": "R",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22311:E:R:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37630",
+      "y": "49.03028",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "1",
+      "platform": "1",
+      "platformName": "Gleis 1",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "569",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "4",
+        "weekday": "3",
+        "hour": "5",
+        "minute": "44"
+      },
+      "servingLine": {
+        "key": "10007",
+        "code": "2",
+        "number": "S1",
+        "symbol": "S1",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Hochstetten",
+        "directionFrom": "Ettlingen Albgaubad",
+        "trainName": "S-Bahn",
+        "trainNum": "10007",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22301",
+          "project": "s22",
+          "direction": "H",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22301:E:H:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    },
+    {
+      "stopID": "7001105",
+      "x": "8.37630",
+      "y": "49.03028",
+      "mapName": "WGS84[dd.ddddd]",
+      "area": "1",
+      "platform": "1",
+      "platformName": "Gleis 1",
+      "stopName": "Karlsruhe Kurt-Schumacher-Str.",
+      "nameWO": "Kurt-Schumacher-Straße",
+      "pointType": "Gleis",
+      "countdown": "576",
+      "dateTime": {
+        "year": "2022",
+        "month": "10",
+        "day": "4",
+        "weekday": "3",
+        "hour": "5",
+        "minute": "51"
+      },
+      "servingLine": {
+        "key": "44053",
+        "code": "2",
+        "number": "E",
+        "symbol": "E",
+        "motType": "1",
+        "mtSubcode": "0",
+        "realtime": "0",
+        "direction": "Neureut Kirchfeld",
+        "directionFrom": "Karlsruhe Rheinhafen",
+        "trainName": "S-Bahn",
+        "trainNum": "44053",
+        "name": "S-Bahn",
+        "hints": [
+          {
+            "content": "Niederflurwagen"
+          }
+        ],
+        "liErgRiProj": {
+          "line": "22391",
+          "project": "s22",
+          "direction": "H",
+          "supplement": "E",
+          "network": "kvv"
+        },
+        "destID": "-1",
+        "stateless": "kvv:22391:E:H:s22"
+      },
+      "operator": {
+        "code": "01",
+        "name": "Albtal-Verkehrs-Gesellschaft mbH",
+        "publicCode": "AVG"
+      }
+    }
+  ]
+}

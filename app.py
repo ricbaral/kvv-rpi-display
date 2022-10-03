@@ -3,14 +3,14 @@
 from threading import Thread
 from time import sleep
 
-from rmv_api import get_json_data, API_REQUEST_DEP, filter_data_dep, print_to_console
+from kvv_api import get_json_data, API_REQUEST_DEP, filter_data_dep, print_to_console
 
 
 def main(show_on_display: bool = True):
 
     if show_on_display:
-        from display import Display2in9
-        display = Display2in9()
+        from display import Display2in7
+        display = Display2in7()
 
         def update_time_loop():
             while True:
@@ -30,7 +30,7 @@ def main(show_on_display: bool = True):
         except Exception as e:
             # do an update to not break the display
             lines = [(-1.0, "Err", str(e))]
-            print(f"Error getting/parsing the JSON data from the RMV API:\n{e}")
+            print(f"Error getting/parsing the JSON data from the KVV API:\n{e}")
 
         else:
             print_to_console(lines)
@@ -42,5 +42,5 @@ def main(show_on_display: bool = True):
 
 
 if __name__ == '__main__':
-    sleep(30) # wait for the internet connection to be established
+    #sleep(30) # wait for the internet connection to be established
     main(show_on_display=True)

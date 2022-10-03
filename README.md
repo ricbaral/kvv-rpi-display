@@ -49,7 +49,7 @@ sudo apt install git python3-pip python3-pil python3-spidev python3-rpi.gpio pyt
 git clone https://github.com/felixdivo/rmv-rpi-display.git
 ```
 
-8. Adjust `API_TOKEN`, `ORIGIN_ID` and `DESTINATION_ID` in [`rmv_api.py`](rmv_api.py). The IDs are taken from the first row ("HAFAS_ID") of the official list of stations found on the [RMV Open Data platform](https://opendata.rmv.de/site/files/rmv01/RMV_Haltestellen.zip). Test execute it with:
+8. Adjust `API_TOKEN`, `ORIGIN_ID` and `DESTINATION_ID` in [`rmv_api.py`](kvv_api.py). The IDs are taken from the first row ("HAFAS_ID") of the official list of stations found on the [RMV Open Data platform](https://opendata.rmv.de/site/files/rmv01/RMV_Haltestellen.zip). Test execute it with:
 ```bash
 cd the/directory/where/you/placed/it/
 python3 app.py
