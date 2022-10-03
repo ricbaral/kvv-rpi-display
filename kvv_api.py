@@ -46,7 +46,10 @@ def filter_data_trip(data, exclude_destinations: Set[str] = []) -> Iterable[Tupl
 def filter_data_dep(data, exclude_destinations: Set[str] = []) -> Iterable[Tuple[str, str, str]]:
     for element in data['departureList']:
         if int(element['countdown']) < 15:
-            time = f"{element['countdown']} min"
+            if int(element['countdown']) == 0:
+                time = "jetzt"
+            else:
+                time = f"{element['countdown']} min"
         else:
             time = f"{element['dateTime']['hour']}:{int(element['dateTime']['minute']):02d}"
 
