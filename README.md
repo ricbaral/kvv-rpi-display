@@ -1,22 +1,21 @@
-# RMV Timetable Viewer
+# KVV Timetable Viewer
 
 This is a small piece of software allowing bus and tram departures for some station to be shown on a small e-ink display.
 
-It is specific for the RMV, the *Rhein-Main-Verkehrsverbund*, a regional Hessian public transport provider.
-It interfaces with their [open data portal](https://opendata.rmv.de/), but should work with most HAFAS APIs with only minor modifications.
+It is specific for the KVV, the *Karlsruher Verkehrsverbund*, a regional Baden-Württemberg public transport provider.
+It interfaces with their [open data portal](https://www.kvv.de/fahrplan/fahrplaene/open-data.html), but should work with most HAFAS APIs with only minor modifications.
 
 ![](example.jpg)
 
 ## Hardware
 
-It uses an (overkill) Raspeberry Pi 3, as the case was already designed for that.
-The case can be 3D printed from the files given in `3d-print-template/`.
-The display we used was the *2.9inch E-Ink Module 296x128*/*2.9inch e-Paper Module* by *Waveshare*. Links to: [Amazon](https://www.amazon.de/gp/product/B071JFRV2S/), [Waveshare Wiki](https://www.waveshare.com/wiki/2.9inch_e-Paper_Module). The required "drivers" are in `epd2in9/`.
+It uses an (overkill) Raspeberry Pi 2, as the case was already designed for that.
+The display I used was the *2.7" 264×176 ePaper Display HAT* by *Waveshare*. Link: [BerryBase](https://www.berrybase.de/2.7-264-176-epaper-display-hat-fuer-raspberry-pi). The required "drivers" are in `epd2in7/`.
 
 
 ## Installation
 
-This assumes that you have an API token obtained from [RMV Open Data](https://opendata.rmv.de/site/anmeldeseite.html).
+This assumes that you have an API token obtained from [KVV Open Data](https://www.kvv.de/fahrplan/fahrplaene/open-data.html).
 
 1. Download and install [*Raspbian Lite*](https://downloads.raspberrypi.org/raspbian_lite_latest). This was tested with version *Buster*, late 2019. Also configure it such that internet access is possible. See [headless setup](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md).
 
@@ -44,12 +43,12 @@ sudo apt install git python3-pip python3-pil python3-spidev python3-rpi.gpio pyt
 
 6. Adjust the timezone to (for example) Germany/Berlin. This can be done from within `sudo raspi-config` and checked with the `date` command. Restart after this just to be sure. ;)
 
-7. Clone the git repo onto the Pi. This assumes that the code was cloned into `/home/pi`, making the entry point sit at `/home/pi/rmv-rpi-display/app.py`.
+7. Clone the git repo onto the Pi. This assumes that the code was cloned into `/home/pi`, making the entry point sit at `/home/pi/kvv-rpi-display/app.py`.
 ```bash
-git clone https://github.com/felixdivo/rmv-rpi-display.git
+git clone https://github.com/ricbaral/kvv-rpi-display.git
 ```
 
-8. Adjust `API_TOKEN`, `ORIGIN_ID` and `DESTINATION_ID` in [`rmv_api.py`](kvv_api.py). The IDs are taken from the first row ("HAFAS_ID") of the official list of stations found on the [RMV Open Data platform](https://opendata.rmv.de/site/files/rmv01/RMV_Haltestellen.zip). Test execute it with:
+8. Adjust `API_TOKEN`, `ORIGIN_ID` and `DESTINATION_ID` in [`kvv_api.py`](kvv_api.py). The IDs are taken from the first row ("HAFAS_ID") of the official list of stations found on the [GTFS-Archiv](https://projekte.kvv-efa.de/GTFS/google_transit.zip). Test execute it with:
 ```bash
 cd the/directory/where/you/placed/it/
 python3 app.py
@@ -57,7 +56,7 @@ python3 app.py
 
 9. Make it start automatically. Add the following line on the line before the final `exit 0` of `/etc/rc.local` (if you cloned it into `/home/pi`):
 ```bash
-su pi -c "python3 /home/pi/rmv-rpi-display/app.py &"
+su pi -c "python3 /home/pi/kvv-rpi-display/app.py &"
 ```
 
 10. Pure happiness and never being late for the bus or tram.
