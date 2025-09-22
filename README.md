@@ -1,88 +1,212 @@
-# KVV Timetable Viewer
+# KVV Transit & Tibber Energy Display
 
-This is a small piece of software allowing bus and tram departures for some station to be shown on a small e-ink display.
+A Raspberry Pi-powered e-ink display showing real-time public transit departures and electricity prices for Karlsruhe, Germany.
 
-It is specific for the KVV, the *Karlsruher Verkehrsverbund*, a regional Baden-Württemberg public transport provider.
-It interfaces with their [open data portal](https://www.kvv.de/fahrplan/fahrplaene/open-data.html), but should work with most HAFAS APIs with only minor modifications.
+![Display Departures](example_departures.jpeg)
+![Display Energy](example_energy.jpeg)
 
-![](example.jpg)
+## 🌟 Features
 
-## Hardware
+- **Real-time KVV Transit Info**: Shows next 6 departures for North/South directions
+- **Tibber Energy Monitoring**: Current electricity price with 24-hour price graph
+- **3-Button Interface**: Physical buttons to switch between screens
+- **E-ink Display**: Low power, always readable 2.7" display
+- **German Interface**: All information displayed in German
+- **Smart Refresh**: Transit updates every 60s, energy every 5min
 
-It uses an (overkill) Raspeberry Pi 2, as the case was already designed for that.
-The display I used was the *2.7" 264×176 ePaper Display HAT* by *Waveshare*. Link: [BerryBase](https://www.berrybase.de/2.7-264-176-epaper-display-hat-fuer-raspberry-pi). The required "drivers" are in `epd2in7/`.
+## 🖥️ Display Screens
 
+### Transit Screens (North/South)
+```
+Nord                        14:23
+─────────────────────────────────
+Linie    Ziel            Zeit
+─────────────────────────────────
+S1       Ettlingen...    jetzt
+S11      Hochstetten     3 min
+[... up to 6 departures]
+```
 
-## Installation
+### Energy Screen with Price Graph
+```
+ENERGIE                     14:23
+─────────────────────────────────
+Jetzt: 0.324 €/kWh    Teuer
+176 W | Heute: 1.31 € (4.14 kWh)
+─────────────────────────────────
+[PRICE GRAPH showing 24h curve]
+```
 
-This assumes that you have an API token obtained from [KVV Open Data](https://www.kvv.de/fahrplan/fahrplaene/open-data.html).
+## 🔧 Hardware Requirements
 
-1. Download and install [*Raspbian Lite*](https://downloads.raspberrypi.org/raspbian_lite_latest). This was tested with version *Buster*, late 2019. Also configure it such that internet access is possible. See [headless setup](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md).
+- Raspberry Pi 2 (or newer)
+- 2.7" Waveshare e-Paper Display HAT (264×176)
+- 3 push buttons connected to GPIO pins 5, 6, and 13
+- Internet connection for API access
 
-2. (Optional.) Update the system initially and reboot.
+## 📦 Installation
+
+### 1. System Setup
+
 ```bash
+# Update system
 sudo apt update
 sudo apt full-upgrade
-sudo reboot now
+
+# Install dependencies
+sudo apt install python3-pip python3-pil python3-spidev \
+                 python3-rpi.gpio python3-gpiozero \
+                 python3-dateutil fonts-lato -y
+
+# Enable SPI
+sudo raspi-config
+# Navigate to: Interface Options → SPI → Enable
 ```
 
-3. (Optional.) Enable automatic updates.
-```bash
-# install:
-sudo apt install unattended-upgrades -y
-# configure:
-sudo dpkg-reconfigure -plow unattended-upgrades
-```
+### 2. Clone Repository
 
-4. Install some dependencies
-```bash
-sudo apt install git python3-pip python3-pil python3-spidev python3-rpi.gpio python3-dateutil fonts-lato -y
-```
-
-5. [Enable SPI](https://www.raspberrypi.org/documentation/hardware/raspberrypi/spi/README.md).
-
-6. Adjust the timezone to (for example) Germany/Berlin. This can be done from within `sudo raspi-config` and checked with the `date` command. Restart after this just to be sure. ;)
-
-7. Clone the git repo onto the Pi. This assumes that the code was cloned into `/home/pi`, making the entry point sit at `/home/pi/kvv-rpi-display/app.py`.
 ```bash
 git clone https://github.com/ricbaral/kvv-rpi-display.git
+cd kvv-rpi-display
 ```
 
-8. Adjust `API_TOKEN`, `ORIGIN_ID` and `DESTINATION_ID` in [`kvv_api.py`](kvv_api.py). The IDs are taken from the first row ("HAFAS_ID") of the official list of stations found on the [GTFS-Archiv](https://projekte.kvv-efa.de/GTFS/google_transit.zip). Test execute it with:
+### 3. Configuration
+
+#### KVV Transit API
+
+Edit `kvv_api.py`:
+```python
+STATION_CONFIG = {
+    "NORTH": {"id": "7001105", "platform": "1", "name": "Nord"},
+    "SOUTH": {"id": "7001105", "platform": "2", "name": "Süd"}
+}
+```
+
+#### Tibber/Home Assistant
+
+Edit `home_assistant_api.py`:
+```python
+HOME_ASSISTANT_URL = "http://192.168.178.127:8123"
+```
+
+Set environment variable:
 ```bash
-cd the/directory/where/you/placed/it/
-python3 app.py
+export HA_TOKEN="your_home_assistant_long_lived_token"
 ```
 
-9. Make it start automatically. Add the following line on the line before the final `exit 0` of `/etc/rc.local` (if you cloned it into `/home/pi`):
+### 4. Test Installation
+
 ```bash
-su pi -c "python3 /home/pi/kvv-rpi-display/app.py &"
+# Test display
+sudo python3 app.py
+
+# Test without display
+python3 tests/test_home_assistant.py
+python3 tests/test_tibber_graph.py
 ```
 
-10. Pure happiness and never being late for the bus or tram.
+### 5. Auto-start on Boot
 
-## Copyright
+```bash
+# Add to /etc/rc.local before 'exit 0':
+su pi -c "cd /home/pi/kvv-rpi-display && python3 app.py &"
+
+# Or use systemd service:
+sudo cp kvv-display.service /etc/systemd/system/
+sudo systemctl enable kvv-display
+sudo systemctl start kvv-display
+```
+
+## 🎮 Button Controls
+
+| Button | GPIO Pin | Function | Color |
+|--------|----------|----------|-------|
+| 1 | GPIO 5 | North Transit | Red |
+| 2 | GPIO 6 | South Transit | Yellow |
+| 3 | GPIO 13 | Energy Display | Green |
+
+## 📊 Tibber Price Graph Features
+
+- **24-Hour View**: Shows today's hourly electricity prices
+- **Current Hour Marker**: Vertical line indicates current time
+- **Price Levels**: German indicators (Sehr günstig → Sehr teuer)
+- **Tomorrow's Prices**: Dashed line after 1-3 PM (when available)
+- **Min/Max Lines**: Dotted horizontal lines at price extremes
+
+## 🔌 API Requirements
+
+### KVV API
+- HAFAS-compatible station IDs
+
+### Home Assistant
+- Running Home Assistant instance
+- Tibber integration configured
+- Required entities:
+  - `sensor.tibber_priceinfo_raw` (price predictions)
+  - `sensor.[location]_strompreis` (current price)
+  - `sensor.tibber_pulse_*` (consumption data)
+
+## 🐛 Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| No transit data | Check KVV API token and internet connection |
+| No energy data | Verify Home Assistant URL and token |
+| Display not updating | Check SPI is enabled, restart service |
+| Buttons not working | Test with `tests/button_test.py` |
+| Graph not showing | Ensure `sensor.tibber_priceinfo_raw` has data |
+
+## 📁 Project Structure
 
 ```
-MIT License
-
-Copyright (c) 2019 Felix Divo & Jonas Weidmann
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+├── app.py                  # Main application
+├── display_optimized.py    # E-ink display driver
+├── kvv_api.py             # Transit API client
+├── home_assistant_api.py  # Tibber data fetcher
+├── epd2in7/               # Waveshare drivers
+└── tests/                 # Test utilities
 ```
+
+## 🚀 Development
+
+### Running Tests
+```bash
+# Test Home Assistant connection
+python3 tests/test_home_assistant.py
+
+# Test price graph parsing
+python3 tests/test_tibber_graph.py
+
+# Test button GPIO
+sudo python3 tests/button_test.py
+```
+
+### Key Constraints
+- Display: 264×176 pixels, monochrome only
+- Refresh: ~2 seconds full screen update
+- No emoji: E-ink incompatible
+- Memory: Limited on RPi 2
+
+## 📝 License
+
+MIT License - See [LICENSE](LICENSE) file
+
+## 🙏 Credits
+
+- Original transit display by Felix Divo & Jonas Weidmann
+- KVV adjustments, Tibber integration, and graph display added by Riccardo Baral
+- Waveshare for e-Paper display drivers
+- KVV for open transit data
+- Tibber for energy data API
+
+## 🔄 Recent Updates
+
+- **v2.0** - Added Tibber price graph with 24-hour view
+- **v1.9** - German price level indicators
+- **v1.8** - Optimized refresh rates (60s/5min)
+- **v1.7** - Increased to 6 departure lines
+- **v1.6** - Three-screen system with GPIO buttons
+
+---
+
+*This project displays real-time transit and energy data for daily household use in Karlsruhe, Germany.*
